@@ -1,0 +1,171 @@
+body{
+  font-family:"Montserrat";
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat-Bold';
+  line-height: 1.5;
+  font-size: 3.2rem;
+}
+h3{
+  font-size: 1.5rem;
+  font-family: "Montserrat";
+}
+p{
+  color:#8f8f8f;
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+/*Navigation Bar*/
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family:"Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size:1.2rem;
+  font-family:"Montserrat-Light";
+}
+
+.abc{
+  position: absolute;
+  right: 200px;
+  top:16px;
+}
+
+.ab{
+  position: absolute;
+  right: 110px;
+  top:16px;
+}
+
+.c{
+  position: absolute;
+  right: 0;
+  top:17px;
+}
+/*Download buttons*/
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+}
+
+/*Icon*/
+.icon{
+  color: #ef8172;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.icon-hover:hover{
+  color:#ff4c68;
+
+}
+
+.control{
+  margin: 75px 0 0 0;
+  text-align: center;
+  padding: 5%;
+}
+
+/*Testimonial Section*/
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin:20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/*Pricing Section*/
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+@media (max-width:1025px){
+    #title{
+      text-align: center;
+    }
+    .title-image{
+      position:static;
+      transform: rotate(0);
+    }
+  }
+
+.bottom{
+    font-family: 'Montserrat-Black';
+    font-size: 3rem;
+    line-height: 1.5;
+    color:white;
+
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding:5% 23%;
+}
+
+
+#footer{
+  text-align: center;
+  background-color: #fff;
+}
+
+.ico{
+  padding:5% 1% 2%;
+  color:Black;
+}
+.ico:hover{
+  color:#ff4c68;
+}
